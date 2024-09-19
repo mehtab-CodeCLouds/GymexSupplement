@@ -1397,6 +1397,22 @@ td {
   }
 }
 
+.thank-you-sec {
+  padding: 160px 0 80px;
+
+  svg {
+    fill: white;
+    display: flex;
+    margin: 0 auto 10px;
+  }
+
+  p {
+    margin: 16px auto;
+    line-height: 28px;
+    max-width: 750px;
+  }
+}
+
 // ====================================================
 // Blogs Page
 
