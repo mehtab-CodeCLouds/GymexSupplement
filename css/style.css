@@ -1159,13 +1159,16 @@ td {
   color: #0f0f0f;
   border: 1px solid #cccccc;
   font-size: 14px;
-  margin-bottom: 20px;
 }
 .coupon-code a {
   color: #0f0f0f;
   text-decoration: underline;
 }
 
+.coupon-field-wrap {
+  display: none;
+  margin-top: 20px;
+}
 .coupon-field-wrap p {
   margin-bottom: 15px;
 }

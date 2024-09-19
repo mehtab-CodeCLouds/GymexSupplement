@@ -93,6 +93,7 @@ function saveCartToLocalStorage() {
 function updateCartCount() {
   cartCount.textContent = productsAll.length; // Count only unique products
 }
+updateCartCount();
 
 // Format numbers with commas
 function formattedNumber(number) {
@@ -306,16 +307,17 @@ if (productDetailsQty) {
     curr.addEventListener("click", function (e) {
       e.preventDefault();
 
+      const currProduct = curr.closest(".product-details-content");
       const productQtyValue = parseInt(productQtyInput.value);
 
       // Check if quantity is valid
       if (isNaN(productQtyValue) || productQtyValue < 1) return;
 
       // Get product details from the data attributes on the page
-      const productId = curr.dataset.id;
-      const productName = curr.dataset.name;
-      const productPrice = parseFloat(curr.dataset.price);
-      const productImage = curr.dataset.image;
+      const productId = currProduct.dataset.id;
+      const productName = currProduct.dataset.name;
+      const productPrice = parseFloat(currProduct.dataset.price);
+      const productImage = currProduct.dataset.image;
 
       // Check if product already exists in the cart
       const existingProduct = productsAll.find(
@@ -765,3 +767,11 @@ $(document).ready(function () {
 
 // ==================== Thumbnail Carousel End ===============================
 // ==============================================================================
+
+// Toggle promocode content
+// ==============================================================================
+$(".coupon-code-btn").on("click", function (e) {
+  e.preventDefault();
+  $(".coupon-field-wrap").slideToggle();
+});
+// Toggle promocode content end

@@ -215,10 +215,15 @@
       <div class="container-xl">
         <div class="coupon-code-wrap pb-4">
           <div class="coupon-code">
-            <p>Have a coupon? <a href="#">Click here to enter your code</a></p>
+            <p>
+              Have a coupon?
+              <a href="#" class="coupon-code-btn"
+                >Click here to enter your code</a
+              >
+            </p>
           </div>
-          <div class="coupon-text mb-4">Please enter a coupon code.</div>
           <form class="coupon-field-wrap">
+            <div class="coupon-text mb-4">Please enter a coupon code.</div>
             <p>If you have a coupon code, please apply it below.</p>
             <input type="text" placeholder="Coupon code" />
             <button class="secondary-btn dark-btn">Apply coupon</button>
@@ -950,7 +955,7 @@
           <div class="mb-4 d-flex justify-content-between">
             <span>Subtotal</span>
             <span class="total-price"
-              >INR <span id="cart-total">8499</span></span
+              >INR <span id="cart-total">0.00</span></span
             >
           </div>
           <button class="secondary-btn dark-btn w-100" id="checkout-btn">
