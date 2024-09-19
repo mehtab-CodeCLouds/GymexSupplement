@@ -1,0 +1,3377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GymexSupplement</title>
+    <!-- <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon" /> -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/fancybox.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-xl">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo-white.png" alt="" />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="muscle-max.html"
+                      >Muscle Max</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="power-surge.html"
+                      >Power Surge
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="ultimate-strength.html"
+                      >Ultimate Strength
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blogs.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-right d-flex align-items-center ms-auto ms-lg-0">
+            <ul class="d-flex icon-links">
+              <li>
+                <a
+                  href="#"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasTop"
+                  aria-controls="offcanvasTop"
+                >
+                  <i class="fa-regular fa-magnifying-glass"></i>
+                </a>
+              </li>
+              <li>
+                <a href="wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                  <span class="numbers" id="wishlist-count">2</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasCart"
+                  id="view-cart-btn"
+                  aria-controls="offcanvasCart"
+                >
+                  <i class="fa-regular fa-cart-shopping"></i>
+                  <span class="numbers" id="cart-count">4</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="hamburger-btn"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <svg
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 512 512"
+              style="enable-background: new 0 0 512 512"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <path
+                    d="M176.792,0H59.208C26.561,0,0,26.561,0,59.208v117.584C0,209.439,26.561,236,59.208,236h117.584
+    C209.439,236,236,209.439,236,176.792V59.208C236,26.561,209.439,0,176.792,0z M196,176.792c0,10.591-8.617,19.208-19.208,19.208
+    H59.208C48.617,196,40,187.383,40,176.792V59.208C40,48.617,48.617,40,59.208,40h117.584C187.383,40,196,48.617,196,59.208
+    V176.792z"
+                  />
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M452,0H336c-33.084,0-60,26.916-60,60v116c0,33.084,26.916,60,60,60h116c33.084,0,60-26.916,60-60V60
+    C512,26.916,485.084,0,452,0z M472,176c0,11.028-8.972,20-20,20H336c-11.028,0-20-8.972-20-20V60c0-11.028,8.972-20,20-20h116
+    c11.028,0,20,8.972,20,20V176z"
+                  />
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M176.792,276H59.208C26.561,276,0,302.561,0,335.208v117.584C0,485.439,26.561,512,59.208,512h117.584
+    C209.439,512,236,485.439,236,452.792V335.208C236,302.561,209.439,276,176.792,276z M196,452.792
+    c0,10.591-8.617,19.208-19.208,19.208H59.208C48.617,472,40,463.383,40,452.792V335.208C40,324.617,48.617,316,59.208,316h117.584
+    c10.591,0,19.208,8.617,19.208,19.208V452.792z"
+                  />
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M452,276H336c-33.084,0-60,26.916-60,60v116c0,33.084,26.916,60,60,60h116c33.084,0,60-26.916,60-60V336
+    C512,302.916,485.084,276,452,276z M472,452c0,11.028-8.972,20-20,20H336c-11.028,0-20-8.972-20-20V336c0-11.028,8.972-20,20-20
+    h116c11.028,0,20,8.972,20,20V452z"
+                  />
+                </g>
+              </g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section class="banner-sec">
+      <img class="banner-shape" src="images/banner-shape.png" alt="" />
+      <div class="container">
+        <div class="row align-items-center gx-xl-5">
+          <div class="col-md-7 order-2 order-md-1">
+            <div class="banner-content">
+              <h1>Power Your Muscles with Premium Supplements</h1>
+              <p>
+                Boost your workouts with our top-tier muscle supplements.
+                Designed to enhance strength, speed up recovery, and support
+                your fitness journey. Achieve peak performance with every rep.
+              </p>
+              <a href="products.html" class="primary-btn">
+                <span>explore products</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-5 order-1 order-md-2">
+            <div class="banner-content mb-3 mb-md-0">
+              <img src="images/banner-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-sec sp-tb">
+      <div class="container-xl">
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <div class="about-content mb-3 mb-md-0">
+              <img src="images/about_img.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="about-content">
+              <h2 class="common-head ch-dark">
+                <small>Designed for Superior Results</small>
+                Supercharge Your Strength with Our Supplement
+              </h2>
+              <p>
+                Transform your workouts with our premium muscle supplement.
+                Crafted to enhance strength and endurance, it also supports
+                faster recovery and improved performance. With scientifically
+                backed ingredients, it’s designed to help you push your limits
+                and achieve your fitness goals more effectively. Experience the
+                difference and take your training to the next level.
+              </p>
+              <a href="products.html" class="primary-btn">
+                <span>Shop Now</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="category-sec sp-tb-2 dark-bg">
+      <div class="container-xl">
+        <h2 class="common-head text-center">
+          <small class="justify-content-center">Find Your Perfect Fit</small>
+          Discover Your Strength Path
+        </h2>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="muscle-max.html" class="category-item">
+              <img src="images/category-img-1.jpg" alt="" />
+              <h3>
+                Muscle <br />
+                Max
+              </h3>
+              <i class="fa-regular fa-arrow-up-right icon"></i>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="power-surge.html" class="category-item">
+              <img src="images/category-img-2.jpg" alt="" />
+              <h3>
+                Power <br />
+                Surge
+              </h3>
+              <i class="fa-regular fa-arrow-up-right icon"></i>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="ultimate-strength.html" class="category-item">
+              <img src="images/category-img-3.jpg" alt="" />
+              <h3>
+                Ultimate <br />
+                Strength
+              </h3>
+              <i class="fa-regular fa-arrow-up-right icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="offer-sec sp-tb product-wrap">
+      <div class="container-xl">
+        <h2 class="common-head ch-dark text-center">
+          <small class="justify-content-center">Shop Now</small>
+          Most Popular Products
+        </h2>
+        <div class="offer-items-wrap">
+          <div class="owl-carousel owl-theme" id="offer-items">
+            <div class="item">
+              <div
+                class="product-item"
+                data-id="9"
+                data-name="MuscleBoost Elite"
+                data-price="2440"
+                data-image="images/product-img-2.png"
+              >
+                <ul class="quick-links">
+                  <li>
+                    <a
+                      class="add-wishlist-btn"
+                      href="#"
+                      type="button"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      data-bs-title="Add to wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+                  </li>
+                  <li
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Quick view"
+                  >
+                    <a
+                      href="#"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#quickViewModal"
+                    >
+                      <i class="fa-regular fa-eye"></i>
+                    </a>
+                  </li>
+                </ul>
+                <a href="product-details.html">
+                  <img src="images/product-img-2.png" alt="" />
+                </a>
+                <a href="product-details.html">
+                  <h3 class="small-head">MuscleBoost Elite</h3>
+                </a>
+                <div class="price">
+                  <span>INR 3,440</span>
+                  INR 2,440
+                </div>
+                <div class="icons-wrap">
+                  <a href="checkout.html" class="secondary-btn">buy now</a>
+                  <a href="#" class="add-cart-btn">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_256_15)">
+                        <mask
+                          id="mask0_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path d="M20 0H0V20H20V0Z" fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_256_15)">
+                          <mask
+                            id="mask1_256_15"
+                            style="mask-type: luminance"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="20"
+                            height="20"
+                          >
+                            <path
+                              d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                              fill="white"
+                            />
+                          </mask>
+                          <g mask="url(#mask1_256_15)">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                              fill="white"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_256_15">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div
+                class="product-item"
+                data-id="10"
+                data-name="MassBuilder Ultra"
+                data-price="2440"
+                data-image="images/product-img-7.png"
+              >
+                <ul class="quick-links">
+                  <li>
+                    <a
+                      class="add-wishlist-btn"
+                      href="#"
+                      type="button"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      data-bs-title="Add to wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+                  </li>
+                  <li
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Quick view"
+                  >
+                    <a
+                      href="#"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#quickViewModal"
+                    >
+                      <i class="fa-regular fa-eye"></i>
+                    </a>
+                  </li>
+                </ul>
+                <a href="product-details.html">
+                  <img src="images/product-img-7.png" alt="" />
+                </a>
+                <a href="product-details.html">
+                  <h3 class="small-head">MassBuilder Ultra</h3>
+                </a>
+                <div class="price">
+                  <span>INR 3,440</span>
+                  INR 2,440
+                </div>
+                <div class="icons-wrap">
+                  <a href="checkout.html" class="secondary-btn">buy now</a>
+                  <a href="#" class="add-cart-btn">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_256_15)">
+                        <mask
+                          id="mask0_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path d="M20 0H0V20H20V0Z" fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_256_15)">
+                          <mask
+                            id="mask1_256_15"
+                            style="mask-type: luminance"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="20"
+                            height="20"
+                          >
+                            <path
+                              d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                              fill="white"
+                            />
+                          </mask>
+                          <g mask="url(#mask1_256_15)">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                              fill="white"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_256_15">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div
+                class="product-item"
+                data-id="11"
+                data-name="PowerPro Max"
+                data-price="2440"
+                data-image="images/product-img-1.png"
+              >
+                <ul class="quick-links">
+                  <li>
+                    <a
+                      class="add-wishlist-btn"
+                      href="#"
+                      type="button"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      data-bs-title="Add to wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+                  </li>
+                  <li
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Quick view"
+                  >
+                    <a
+                      href="#"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#quickViewModal"
+                    >
+                      <i class="fa-regular fa-eye"></i>
+                    </a>
+                  </li>
+                </ul>
+                <a href="product-details.html">
+                  <img src="images/product-img-1.png" alt="" />
+                </a>
+                <a href="product-details.html">
+                  <h3 class="small-head">PowerPro Max</h3>
+                </a>
+                <div class="price">
+                  <span>INR 3,440</span>
+                  INR 2,440
+                </div>
+                <div class="icons-wrap">
+                  <a href="checkout.html" class="secondary-btn">buy now</a>
+                  <a href="#" class="add-cart-btn">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_256_15)">
+                        <mask
+                          id="mask0_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path d="M20 0H0V20H20V0Z" fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_256_15)">
+                          <mask
+                            id="mask1_256_15"
+                            style="mask-type: luminance"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="20"
+                            height="20"
+                          >
+                            <path
+                              d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                              fill="white"
+                            />
+                          </mask>
+                          <g mask="url(#mask1_256_15)">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                              fill="white"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_256_15">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div
+                class="product-item"
+                data-id="12"
+                data-name="Peak Performance Plus"
+                data-price="2440"
+                data-image="images/product-img-5.png"
+              >
+                <ul class="quick-links">
+                  <li>
+                    <a
+                      class="add-wishlist-btn"
+                      href="#"
+                      type="button"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      data-bs-title="Add to wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+                  </li>
+                  <li
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Quick view"
+                  >
+                    <a
+                      href="#"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#quickViewModal"
+                    >
+                      <i class="fa-regular fa-eye"></i>
+                    </a>
+                  </li>
+                </ul>
+                <a href="product-details.html">
+                  <img src="images/product-img-5.png" alt="" />
+                </a>
+                <a href="product-details.html">
+                  <h3 class="small-head">Peak Performance Plus</h3>
+                </a>
+                <div class="price">
+                  <span>INR 3,440</span>
+                  INR 2,440
+                </div>
+                <div class="icons-wrap">
+                  <a href="checkout.html" class="secondary-btn">buy now</a>
+                  <a href="#" class="add-cart-btn">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_256_15)">
+                        <mask
+                          id="mask0_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path d="M20 0H0V20H20V0Z" fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_256_15)">
+                          <mask
+                            id="mask1_256_15"
+                            style="mask-type: luminance"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="20"
+                            height="20"
+                          >
+                            <path
+                              d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                              fill="white"
+                            />
+                          </mask>
+                          <g mask="url(#mask1_256_15)">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                              fill="white"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_256_15">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div
+                class="product-item"
+                data-id="13"
+                data-name="MuscleBoost Elite"
+                data-price="3440"
+                data-image="images/product-img-2.png"
+              >
+                <ul class="quick-links">
+                  <li>
+                    <a
+                      class="add-wishlist-btn"
+                      href="#"
+                      type="button"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="left"
+                      data-bs-title="Add to wishlist"
+                    >
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+                  </li>
+                  <li
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Quick view"
+                  >
+                    <a
+                      href="#"
+                      type="button"
+                      data-bs-toggle="modal"
+                      data-bs-target="#quickViewModal"
+                    >
+                      <i class="fa-regular fa-eye"></i>
+                    </a>
+                  </li>
+                </ul>
+                <a href="product-details.html">
+                  <img src="images/product-img-2.png" alt="" />
+                </a>
+                <a href="product-details.html">
+                  <h3 class="small-head">MuscleBoost Elite</h3>
+                </a>
+                <div class="price">
+                  <span>INR 3,440</span>
+                  INR 2,440
+                </div>
+                <div class="icons-wrap">
+                  <a href="checkout.html" class="secondary-btn">buy now</a>
+                  <a href="#" class="add-cart-btn">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_256_15)">
+                        <mask
+                          id="mask0_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path d="M20 0H0V20H20V0Z" fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_256_15)">
+                          <mask
+                            id="mask1_256_15"
+                            style="mask-type: luminance"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="20"
+                            height="20"
+                          >
+                            <path
+                              d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                              fill="white"
+                            />
+                          </mask>
+                          <g mask="url(#mask1_256_15)">
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                              fill="white"
+                            />
+                          </g>
+                        </g>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_256_15">
+                          <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="products.html" class="primary-btn">
+            <span>view more</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="features-sec sp-tb-2 dark-bg">
+      <div class="container-xl">
+        <h2 class="common-head text-center">
+          <small class="justify-content-center">
+            Unleashing Your Full Potential
+          </small>
+          Key Features of Our Muscle Supplement
+        </h2>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="features-item">
+              <div class="feature-icon">
+                <img src="images/feature-icon-1.png" alt="" />
+              </div>
+              <h3>Maximized Muscle Growth</h3>
+              <p>
+                Experience faster muscle gains with our supplement, packed with
+                nutrients that support enhanced muscle development.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="features-item">
+              <div class="feature-icon">
+                <img src="images/feature-icon-2.png" alt="" />
+              </div>
+              <h3>Accelerated Recovery</h3>
+              <p>
+                Reduce downtime between workouts with ingredients designed to
+                speed up muscle recovery and repair.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="features-item">
+              <div class="feature-icon">
+                <img src="images/feature-icon-3.png" alt="" />
+              </div>
+              <h3>Enhanced Endurance</h3>
+              <p>
+                Push through your toughest workouts with a formula that boosts
+                stamina and energy levels for sustained performance.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="features-item">
+              <div class="feature-icon">
+                <img src="images/feature-icon-4.png" alt="" />
+              </div>
+              <h3>timal Nutrient Absorption</h3>
+              <p>
+                Our supplement is designed to ensure your body efficiently
+                absorbs essential nutrients for maximum effectiveness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="products-sec sp-tb product-wrap">
+      <div class="container-xl">
+        <h2 class="common-head ch-dark text-center">
+          <small class="justify-content-center"
+            >Power Up Your Performance</small
+          >
+          Explore Our Muscle Supplements
+        </h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div
+              class="product-item"
+              data-id="1"
+              data-name="PowerPro Max"
+              data-price="3440"
+              data-image="images/product-img-1.png"
+            >
+              <ul class="quick-links">
+                <li>
+                  <a
+                    href="#"
+                    class="add-wishlist-btn"
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Add to wishlist"
+                  >
+                    <i class="fa-regular fa-heart"></i>
+                  </a>
+                </li>
+                <li
+                  type="button"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="left"
+                  data-bs-title="Quick view"
+                >
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal"
+                  >
+                    <i class="fa-regular fa-eye"></i>
+                  </a>
+                </li>
+              </ul>
+              <a href="product-details.html">
+                <img src="images/product-img-1.png" alt="" />
+              </a>
+              <a href="product-details.html">
+                <h3 class="small-head">PowerPro Max</h3>
+              </a>
+              <div class="price">INR 3,440</div>
+              <div class="icons-wrap">
+                <a href="checkout.html" class="secondary-btn">buy now</a>
+                <a href="#" class="add-cart-btn">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_256_15)">
+                      <mask
+                        id="mask0_256_15"
+                        style="mask-type: luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <path d="M20 0H0V20H20V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_256_15)">
+                        <mask
+                          id="mask1_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path
+                            d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask1_256_15)">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                            fill="white"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_256_15">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div
+              class="product-item"
+              data-id="2"
+              data-name="MuscleBoost Elite"
+              data-price="3440"
+              data-image="images/product-img-2.png"
+            >
+              <ul class="quick-links">
+                <li>
+                  <a
+                    href="#"
+                    class="add-wishlist-btn"
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Add to wishlist"
+                  >
+                    <i class="fa-regular fa-heart"></i>
+                  </a>
+                </li>
+                <li
+                  type="button"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="left"
+                  data-bs-title="Quick view"
+                >
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal"
+                  >
+                    <i class="fa-regular fa-eye"></i>
+                  </a>
+                </li>
+              </ul>
+              <a href="product-details.html">
+                <img src="images/product-img-2.png" alt="" />
+              </a>
+              <a href="product-details.html">
+                <h3 class="small-head">MuscleBoost Elite</h3>
+              </a>
+              <div class="price">INR 3,440</div>
+              <div class="icons-wrap">
+                <a href="checkout.html" class="secondary-btn">buy now</a>
+                <a href="#" class="add-cart-btn">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_256_15)">
+                      <mask
+                        id="mask0_256_15"
+                        style="mask-type: luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <path d="M20 0H0V20H20V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_256_15)">
+                        <mask
+                          id="mask1_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path
+                            d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask1_256_15)">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                            fill="white"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_256_15">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div
+              class="product-item"
+              data-id="3"
+              data-name="EnduraFuel XT"
+              data-price="3440"
+              data-image="images/product-img-3.png"
+            >
+              <ul class="quick-links">
+                <li>
+                  <a
+                    href="#"
+                    class="add-wishlist-btn"
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Add to wishlist"
+                  >
+                    <i class="fa-regular fa-heart"></i>
+                  </a>
+                </li>
+                <li
+                  type="button"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="left"
+                  data-bs-title="Quick view"
+                >
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal"
+                  >
+                    <i class="fa-regular fa-eye"></i>
+                  </a>
+                </li>
+              </ul>
+              <a href="product-details.html">
+                <img src="images/product-img-3.png" alt="" />
+              </a>
+              <a href="product-details.html">
+                <h3 class="small-head">EnduraFuel XT</h3>
+              </a>
+              <div class="price">INR 3,440</div>
+              <div class="icons-wrap">
+                <a href="checkout.html" class="secondary-btn">buy now</a>
+                <a href="#" class="add-cart-btn">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_256_15)">
+                      <mask
+                        id="mask0_256_15"
+                        style="mask-type: luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <path d="M20 0H0V20H20V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_256_15)">
+                        <mask
+                          id="mask1_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path
+                            d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask1_256_15)">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                            fill="white"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_256_15">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div
+              class="product-item"
+              data-id="4"
+              data-name="Strength Surge"
+              data-price="3440"
+              data-image="images/product-img-4.png"
+            >
+              <ul class="quick-links">
+                <li>
+                  <a
+                    href="#"
+                    class="add-wishlist-btn"
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Add to wishlist"
+                  >
+                    <i class="fa-regular fa-heart"></i>
+                  </a>
+                </li>
+                <li
+                  type="button"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="left"
+                  data-bs-title="Quick view"
+                >
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal"
+                  >
+                    <i class="fa-regular fa-eye"></i>
+                  </a>
+                </li>
+              </ul>
+              <a href="product-details.html">
+                <img src="images/product-img-4.png" alt="" />
+              </a>
+              <a href="product-details.html">
+                <h3 class="small-head">Strength Surge</h3>
+              </a>
+              <div class="price">INR 3,440</div>
+              <div class="icons-wrap">
+                <a href="checkout.html" class="secondary-btn">buy now</a>
+                <a href="#" class="add-cart-btn">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_256_15)">
+                      <mask
+                        id="mask0_256_15"
+                        style="mask-type: luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <path d="M20 0H0V20H20V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_256_15)">
+                        <mask
+                          id="mask1_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path
+                            d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask1_256_15)">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                            fill="white"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_256_15">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div
+              class="product-item"
+              data-id="5"
+              data-name="Peak Performance Plus"
+              data-price="3440"
+              data-image="images/product-img-5.png"
+            >
+              <ul class="quick-links">
+                <li>
+                  <a
+                    class="add-wishlist-btn"
+                    href="#"
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Add to wishlist"
+                  >
+                    <i class="fa-regular fa-heart"></i>
+                  </a>
+                </li>
+                <li
+                  type="button"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="left"
+                  data-bs-title="Quick view"
+                >
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal"
+                  >
+                    <i class="fa-regular fa-eye"></i>
+                  </a>
+                </li>
+              </ul>
+              <a href="product-details.html">
+                <img src="images/product-img-5.png" alt="" />
+              </a>
+              <a href="product-details.html">
+                <h3 class="small-head">Peak Performance Plus</h3>
+              </a>
+              <div class="price">INR 3,440</div>
+              <div class="icons-wrap">
+                <a href="checkout.html" class="secondary-btn">buy now</a>
+                <a href="#" class="add-cart-btn">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_256_15)">
+                      <mask
+                        id="mask0_256_15"
+                        style="mask-type: luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <path d="M20 0H0V20H20V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_256_15)">
+                        <mask
+                          id="mask1_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path
+                            d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask1_256_15)">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                            fill="white"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_256_15">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div
+              class="product-item"
+              data-id="6"
+              data-name="RecoveryX Formula"
+              data-price="3440"
+              data-image="images/product-img-6.png"
+            >
+              <ul class="quick-links">
+                <li>
+                  <a
+                    class="add-wishlist-btn"
+                    href="#"
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Add to wishlist"
+                  >
+                    <i class="fa-regular fa-heart"></i>
+                  </a>
+                </li>
+                <li
+                  type="button"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="left"
+                  data-bs-title="Quick view"
+                >
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal"
+                  >
+                    <i class="fa-regular fa-eye"></i>
+                  </a>
+                </li>
+              </ul>
+              <a href="product-details.html">
+                <img src="images/product-img-6.png" alt="" />
+              </a>
+              <a href="product-details.html">
+                <h3 class="small-head">RecoveryX Formula</h3>
+              </a>
+              <div class="price">INR 3,440</div>
+              <div class="icons-wrap">
+                <a href="checkout.html" class="secondary-btn">buy now</a>
+                <a href="#" class="add-cart-btn">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_256_15)">
+                      <mask
+                        id="mask0_256_15"
+                        style="mask-type: luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <path d="M20 0H0V20H20V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_256_15)">
+                        <mask
+                          id="mask1_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path
+                            d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask1_256_15)">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                            fill="white"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_256_15">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div
+              class="product-item"
+              data-id="7"
+              data-name="MassBuilder Ultra"
+              data-price="3440"
+              data-image="images/product-img-7.png"
+            >
+              <ul class="quick-links">
+                <li>
+                  <a
+                    class="add-wishlist-btn"
+                    href="#"
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Add to wishlist"
+                  >
+                    <i class="fa-regular fa-heart"></i>
+                  </a>
+                </li>
+                <li
+                  type="button"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="left"
+                  data-bs-title="Quick view"
+                >
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal"
+                  >
+                    <i class="fa-regular fa-eye"></i>
+                  </a>
+                </li>
+              </ul>
+              <a href="product-details.html">
+                <img src="images/product-img-7.png" alt="" />
+              </a>
+              <a href="product-details.html">
+                <h3 class="small-head">MassBuilder Ultra</h3>
+              </a>
+              <div class="price">INR 3,440</div>
+              <div class="icons-wrap">
+                <a href="checkout.html" class="secondary-btn">buy now</a>
+                <a href="#" class="add-cart-btn">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_256_15)">
+                      <mask
+                        id="mask0_256_15"
+                        style="mask-type: luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <path d="M20 0H0V20H20V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_256_15)">
+                        <mask
+                          id="mask1_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path
+                            d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask1_256_15)">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                            fill="white"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_256_15">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6">
+            <div
+              class="product-item"
+              data-id="8"
+              data-name="PureGain Pro"
+              data-price="3440"
+              data-image="images/product-img-8.png"
+            >
+              <ul class="quick-links">
+                <li>
+                  <a
+                    class="add-wishlist-btn"
+                    href="#"
+                    type="button"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
+                    data-bs-title="Add to wishlist"
+                  >
+                    <i class="fa-regular fa-heart"></i>
+                  </a>
+                </li>
+                <li
+                  type="button"
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="left"
+                  data-bs-title="Quick view"
+                >
+                  <a
+                    href="#"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#quickViewModal"
+                  >
+                    <i class="fa-regular fa-eye"></i>
+                  </a>
+                </li>
+              </ul>
+              <a href="product-details.html">
+                <img src="images/product-img-8.png" alt="" />
+              </a>
+              <a href="product-details.html">
+                <h3 class="small-head">PureGain Pro</h3>
+              </a>
+              <div class="price">INR 3,440</div>
+              <div class="icons-wrap">
+                <a href="checkout.html" class="secondary-btn">buy now</a>
+                <a href="#" class="add-cart-btn">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_256_15)">
+                      <mask
+                        id="mask0_256_15"
+                        style="mask-type: luminance"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="20"
+                        height="20"
+                      >
+                        <path d="M20 0H0V20H20V0Z" fill="white" />
+                      </mask>
+                      <g mask="url(#mask0_256_15)">
+                        <mask
+                          id="mask1_256_15"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="20"
+                          height="20"
+                        >
+                          <path
+                            d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                            fill="white"
+                          />
+                        </mask>
+                        <g mask="url(#mask1_256_15)">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                            fill="white"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_256_15">
+                        <rect width="20" height="20" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="products.html" class="primary-btn">
+            <span>view more</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="commitment-sec sp-tb-2 dark-bg">
+      <div class="container-xl">
+        <h2 class="common-head text-center">
+          <small class="justify-content-center">Proven Excellence</small>
+          Numbers That Reflect Our Commitment
+        </h2>
+        <div class="d-md-flex align-items-center justify-content-center">
+          <div class="commitment-item">
+            <div class="img-wrap">
+              <img src="images/commitment-img-1.jpg" alt="" />
+            </div>
+            <div class="commitment-content">
+              <div class="counter-wrap">
+                <span class="countfect" data-num="455">455</span>
+                <span class="ms-1">k+</span>
+              </div>
+              <h3>Happy Customer</h3>
+            </div>
+          </div>
+          <div class="commitment-item">
+            <div class="img-wrap">
+              <img src="images/commitment-img-2.jpg" alt="" />
+            </div>
+            <div class="commitment-content">
+              <div class="counter-wrap">
+                <span class="countfect" data-num="3560">3560</span>
+                <span class="ms-1">km+</span>
+              </div>
+              <h3>Package Delivered</h3>
+            </div>
+          </div>
+          <div class="commitment-item">
+            <div class="img-wrap">
+              <img src="images/commitment-img-3.jpg" alt="" />
+            </div>
+            <div class="commitment-content">
+              <div class="counter-wrap">
+                <span class="countfect" data-num="39">39</span>
+                <span class="ms-1">YR+</span>
+              </div>
+              <h3>Year Experience</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testi-sec sp-tb">
+      <div class="container">
+        <div class="row align-items-end gx-xl-5">
+          <div class="col-md-7 order-2 order-md-1">
+            <div class="about-content">
+              <h3 class="common-head ch-dark">
+                <small>Faq</small>
+                Get Every Answers From Here.
+              </h3>
+              <div class="accordion mt-4" id="accordionFaq">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      What are the benefits of using muscle supplements?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body">
+                      Our muscle supplements are designed to enhance strength,
+                      improve endurance, and accelerate recovery. They provide
+                      essential nutrients that support muscle growth, helping
+                      you achieve your fitness goals more efficiently.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Are your supplements safe to use?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      How should I take the supplements for best results?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      Do you offer any discounts or promotions?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionFaq"
+                  >
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong>
+                      It is hidden by default, until the collapse plugin adds
+                      the appropriate classes that we use to style each element.
+                      These classes control the overall appearance, as well as
+                      the showing and hiding via CSS transitions. You can modify
+                      any of this with custom CSS or overriding our default
+                      variables. It's also worth noting that just about any HTML
+                      can go within the <code>.accordion-body</code>, though the
+                      transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 order-1 order-md-2">
+            <div class="about-content mb-3 mb-md-0">
+              <img src="images/about_img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="dark-bg">
+      <div class="container-xl">
+        <div class="row gx-xl-5">
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-item">
+              <a href="index.html">
+                <img src="images/logo-white.png" alt="" />
+              </a>
+              <p class="my-4">
+                Premium muscle supplements to fuel your fitness journey. Quality
+                ingredients, optimal results. Join our community today.
+              </p>
+              <ul class="sm-icons d-flex align-items-center">
+                <li>
+                  <a href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://x.com/">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-item text-lg-center">
+              <h4>Quick Links</h4>
+              <ul class="nav-links">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="products.html">Shop</a>
+                </li>
+                <li>
+                  <a href="blogs.html">Blogs</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-item">
+              <h4>GET THE LATEST NEWS SENT RIGHT TO YOUR INBOX!</h4>
+              <p>
+                See our latest collections & exclusive offers before the crowd!
+              </p>
+              <form action="" class="subscribe-form">
+                <div class="input-wrap">
+                  <input type="email" placeholder="Your Email..." />
+                  <button class="submit-btn">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-content">
+          <p>© GYMEX – All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Search Box Offcanvas -->
+    <div
+      class="offcanvas offcanvas-top"
+      tabindex="-1"
+      id="offcanvasTop"
+      aria-labelledby="offcanvasTopLabel"
+    >
+      <div class="offcanvas-header justify-content-end">
+        <button
+          type="button"
+          class="close-btn"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-regular fa-xmark"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <form class="search-form">
+          <div class="input-item-wrap">
+            <label for="search-input">What are you looking for?</label>
+            <div class="input-wrap">
+              <input
+                name="search-input"
+                type="text"
+                placeholder="Search products..."
+              />
+              <button>
+                <i class="fa-regular fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Search Box Offcanvas End -->
+
+    <!-- Cart Offcanvas -->
+    <div
+      class="offcanvas offcanvas-start cart-offcanvas"
+      tabindex="-1"
+      id="offcanvasCart"
+      aria-labelledby="offcanvasCartLabel"
+    >
+      <div class="offcanvas-header">
+        <h4>Item added to your cart</h4>
+        <a
+          href="#"
+          class="close-btn"
+          type="button"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-regular fa-xmark"></i>
+        </a>
+      </div>
+      <div class="offcanvas-body">
+        <div class="cart-item-wrap">
+          <div class="cart-item">
+            <a href="#" class="cart-img-wrap">
+              <img src="images/product-img-1.png" alt="" />
+            </a>
+            <div class="cart-content">
+              <a href="#">
+                <h5>PowerPro Max</h5>
+              </a>
+              <div class="price">
+                <span>INR 3,440</span>
+                INR 2,440
+              </div>
+              <div class="d-flex align-items-center">
+                <div class="quantity-wrap">
+                  <button class="quantity-btn quantity-minus">
+                    <i class="fa-regular fa-minus"></i>
+                  </button>
+                  <input type="number" class="quantity__input" value="1" />
+                  <button class="quantity-btn quantity-plus">
+                    <i class="fa-regular fa-plus"></i>
+                  </button>
+                </div>
+                <a href="#" class="item-remove">remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="cart-item">
+            <a href="#" class="cart-img-wrap">
+              <img src="images/product-img-2.png" alt="" />
+            </a>
+            <div class="cart-content">
+              <a href="#">
+                <h5>MuscleBoost Elite</h5>
+              </a>
+              <div class="price">
+                <span>INR 3,440</span>
+                INR 2,440
+              </div>
+              <div class="d-flex align-items-center">
+                <div class="quantity-wrap">
+                  <button class="quantity-btn quantity-minus">
+                    <i class="fa-regular fa-minus"></i>
+                  </button>
+                  <input type="number" class="quantity__input" value="1" />
+                  <button class="quantity-btn quantity-plus">
+                    <i class="fa-regular fa-plus"></i>
+                  </button>
+                </div>
+                <a href="#" class="item-remove">remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="cart-item">
+            <a href="#" class="cart-img-wrap">
+              <img src="images/product-img-3.png" alt="" />
+            </a>
+            <div class="cart-content">
+              <a href="#">
+                <h5>EnduraFuel XT</h5>
+              </a>
+              <div class="price">
+                <span>INR 3,440</span>
+                INR 2,440
+              </div>
+              <div class="d-flex align-items-center">
+                <div class="quantity-wrap">
+                  <button class="quantity-btn quantity-minus">
+                    <i class="fa-regular fa-minus"></i>
+                  </button>
+                  <input
+                    type="number"
+                    class="quantity__input"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="quantity-btn quantity-plus">
+                    <i class="fa-regular fa-plus"></i>
+                  </button>
+                </div>
+                <a href="#" class="item-remove">remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="empty-cart-content">
+            <i class="fa-solid fa-cart-plus"></i>
+            <h3>Your cart is emptry</h3>
+            <p>
+              Before proceed to checkout you must add some products to your
+              shopping cart. You will find a lot of interesting products on our
+              "Shop" page.
+            </p>
+          </div>
+        </div>
+        <div class="py-4 bottom-content">
+          <div class="mb-4 d-flex justify-content-between">
+            <span>Subtotal</span>
+            <span class="total-price"
+              >INR <span id="cart-total">8499</span></span
+            >
+          </div>
+          <button class="secondary-btn dark-btn w-100" id="checkout-btn">
+            check out
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Cart Offcanvas End -->
+
+    <!-- Hamburger Offcanvas -->
+    <div
+      class="hamburger offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header justify-content-end">
+        <a
+          href="#"
+          class="close-btn"
+          type="button"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-regular fa-xmark"></i>
+        </a>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav d-lg-none">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Shop</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="muscle-max.html">Muscle Max</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="power-surge.html">Power Surge</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="ultimate-strength.html"
+                  >Ultimate Strength</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blogs.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+        </ul>
+        <h4>
+          Getting all of the Nutrients you need simply cannot be done without
+          supplements.
+        </h4>
+        <p>
+          Nam libero tempore, cum soluta nobis eligendi cumque quod placeat
+          facere possimus assumenda omnis dolor repellendu sautem temporibus
+          officiis
+        </p>
+        <div class="contact-info">
+          <a href="#">+1 599 162 4545</a>
+          <a href="#">suxnix@gmail.com</a>
+          <p>5689 Lotaso Terrace, Culver City, CA, United States</p>
+          <ul class="sm-icons d-flex align-items-center">
+            <li>
+              <a href="https://www.facebook.com/">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Hamburger Offcanvas End -->
+
+    <!-- Quick View Modal -->
+    <div
+      class="quick-view-modal modal fade"
+      id="quickViewModal"
+      tabindex="-1"
+      aria-labelledby="quickViewModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="product-details-content">
+                  <div id="modalsync1" class="owl-carousel owl-theme">
+                    <div class="item">
+                      <a
+                        href="images/shop-details-thumb01.png"
+                        class="product-img"
+                        data-fancybox="modalgallery"
+                      >
+                        <img src="images/shop-details-thumb01.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a
+                        href="images/shop-details-thumb02.png"
+                        class="product-img"
+                        data-fancybox="modalgallery"
+                        class="product-img"
+                      >
+                        <img src="images/shop-details-thumb02.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a
+                        href="images/shop-details-thumb03.png"
+                        class="product-img"
+                        data-fancybox="modalgallery"
+                        class="product-img"
+                      >
+                        <img src="images/shop-details-thumb03.png" alt="" />
+                      </a>
+                    </div>
+                    <div class="item">
+                      <a
+                        href="images/shop-details-thumb04.png"
+                        class="product-img"
+                        data-fancybox="modalgallery"
+                        class="product-img"
+                      >
+                        <img src="images/shop-details-thumb04.png" alt="" />
+                      </a>
+                    </div>
+                  </div>
+
+                  <div id="modalsync2" class="owl-carousel owl-theme">
+                    <div class="item">
+                      <div class="product-img">
+                        <img src="images/shop-details-thumb01.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-img">
+                        <img src="images/shop-details-thumb02.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-img">
+                        <img src="images/shop-details-thumb03.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="product-img">
+                        <img src="images/shop-details-thumb04.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7">
+                <div
+                  class="product-details-content"
+                  data-id="1"
+                  data-name="PowerPro Max"
+                  data-price="3440"
+                  data-image="images/product-img-1.png"
+                >
+                  <h2 class="common-head ch-dark">
+                    <small>Shop Now</small>
+                    PowerPro Max
+                  </h2>
+                  <div class="about-detail-wrap d-flex align-items-center">
+                    <div class="other-detail">
+                      <span class="fw-semibold">Brands</span> : Suxnix
+                    </div>
+                    <div class="rating-wrap">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <a href="#" class="rating-text">(4.5)</a>
+                    </div>
+                  </div>
+                  <div class="price mt-2 mb-4">
+                    <span>INR 3,440</span>
+                    INR 2,440
+                    <span class="is-available">- IN Stock</span>
+                  </div>
+                  <p>
+                    Rejuvenate &amp; Renew Anti-Aging Face Cream deeply hydrates
+                    and revitalizes your skin, reducing fine lines and wrinkles.
+                    Its nourishing formula promotes a youthful glow, leaving
+                    your skin smooth, firm, and radiant.
+                  </p>
+                  <div class="d-flex align-items-center my-3">
+                    <div class="quantity-wrap" id="product-details-quantity">
+                      <button class="quantity-btn quantity-minus">
+                        <i class="fa-regular fa-minus"></i>
+                      </button>
+                      <input
+                        type="number"
+                        class="quantity__input"
+                        value="1"
+                        min="1"
+                      />
+                      <button class="quantity-btn quantity-plus">
+                        <i class="fa-regular fa-plus"></i>
+                      </button>
+                    </div>
+                    <a href="#" class="icon-circle product-wishlist-btn">
+                      <i class="fa-regular fa-heart"></i>
+                    </a>
+                  </div>
+                  <div class="icons-wrap justify-content-start">
+                    <a href="#" class="secondary-btn primary-bg">buy now</a>
+                    <a
+                      href="#"
+                      class="add-cart-btn product-cart-button"
+                      data-id="1"
+                      data-name="PowerPro Max"
+                      data-price="3440"
+                      data-image="images/product-img-1.png"
+                    >
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_256_15)">
+                          <mask
+                            id="mask0_256_15"
+                            style="mask-type: luminance"
+                            maskUnits="userSpaceOnUse"
+                            x="0"
+                            y="0"
+                            width="20"
+                            height="20"
+                          >
+                            <path d="M20 0H0V20H20V0Z" fill="white"></path>
+                          </mask>
+                          <g mask="url(#mask0_256_15)">
+                            <mask
+                              id="mask1_256_15"
+                              style="mask-type: luminance"
+                              maskUnits="userSpaceOnUse"
+                              x="0"
+                              y="0"
+                              width="20"
+                              height="20"
+                            >
+                              <path
+                                d="M0 2.46366e-06H20V20H0V2.46366e-06Z"
+                                fill="white"
+                              ></path>
+                            </mask>
+                            <g mask="url(#mask1_256_15)">
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M2.10173 17.2469C2.29001 18.8177 3.62245 20 5.20454 20H14.8579C16.4488 20 17.7857 18.8048 17.9633 17.2239C18.0115 16.7952 17.703 16.4085 17.2742 16.3603C16.8454 16.3121 16.4588 16.6207 16.4106 17.0495C16.3218 17.8399 15.6533 18.4375 14.8579 18.4375H5.20454C4.4135 18.4375 3.74727 17.8464 3.65313 17.0609C3.65313 17.0609 3.65313 17.0609 3.65313 17.0609L2.777 9.7508C2.72565 9.32239 2.33674 9.01672 1.90833 9.06807C1.47992 9.11941 1.17425 9.50833 1.2256 9.93673L2.10173 17.2469L2.10173 17.2469Z"
+                                fill="white"
+                              ></path>
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M17.5121 14.2433C17.9409 14.2915 18.3276 13.983 18.3757 13.5542L18.7049 10.625H19.2187C19.6502 10.625 20 10.2752 20 9.84375V6.71875C20 6.28728 19.6502 5.9375 19.2187 5.9375H0.78125C0.349777 5.9375 0 6.28728 0 6.71875V9.84375C0 10.2752 0.349777 10.625 0.78125 10.625H14.8828C15.3143 10.625 15.6641 10.2752 15.6641 9.84375C15.6641 9.41228 15.3143 9.0625 14.8828 9.0625H1.5625V7.5H18.4375V9.0625H18.0065C17.6088 9.0625 17.2745 9.36129 17.2301 9.75652L16.823 13.3797C16.7748 13.8085 17.0834 14.1951 17.5121 14.2433Z"
+                                fill="white"
+                              ></path>
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M16.4289 7.1921C16.7767 6.93663 16.8514 6.44765 16.596 6.09994L12.3484 0.318691C12.0929 -0.0290209 11.6039 -0.103798 11.2562 0.151671C10.9085 0.407141 10.8337 0.896117 11.0892 1.24383L15.3368 7.02508C15.5923 7.37279 16.0812 7.44757 16.4289 7.1921Z"
+                                fill="white"
+                              ></path>
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M3.59998 7.1921C3.9477 7.44757 4.43667 7.37279 4.69214 7.02508L8.93972 1.24383C9.19519 0.896117 9.12041 0.407141 8.7727 0.151671C8.42499 -0.103798 7.93601 -0.0290209 7.68054 0.318691L3.43296 6.09994C3.17749 6.44765 3.25227 6.93663 3.59998 7.1921Z"
+                                fill="white"
+                              ></path>
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M10 16.875C10.4315 16.875 10.7812 16.5252 10.7812 16.0938V12.9688C10.7812 12.5373 10.4315 12.1875 10 12.1875C9.56853 12.1875 9.21875 12.5373 9.21875 12.9688V16.0938C9.21875 16.5252 9.56853 16.875 10 16.875Z"
+                                fill="white"
+                              ></path>
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M13.125 16.875C13.5565 16.875 13.9062 16.5252 13.9062 16.0938V12.9688C13.9062 12.5373 13.5565 12.1875 13.125 12.1875C12.6935 12.1875 12.3438 12.5373 12.3438 12.9688V16.0938C12.3438 16.5252 12.6935 16.875 13.125 16.875Z"
+                                fill="white"
+                              ></path>
+                              <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M6.875 16.875C7.30647 16.875 7.65625 16.5252 7.65625 16.0938V12.9688C7.65625 12.5373 7.30647 12.1875 6.875 12.1875C6.44353 12.1875 6.09375 12.5373 6.09375 12.9688V16.0938C6.09375 16.5252 6.44353 16.875 6.875 16.875Z"
+                                fill="white"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_256_15">
+                            <rect width="20" height="20" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </div>
+                  <div class="about-product-item">
+                    <svg
+                      id="Layer_1"
+                      enable-background="new 0 0 64 64"
+                      height="512"
+                      viewBox="0 0 64 64"
+                      width="512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path
+                          d="m62 23h-10-8-10c-.6 0-1 .4-1 1v6.7l-2.5-.6-2.7-2.7c3-2.8 3.2-8.7 3.2-10.4 3.7 0 6.3-1 7.3-2.8.4-.8.7-2.1-.4-3.8-1.1-1.6-2.5-2.4-4.4-2.4-.1 0-3.6 0-3.6 0-.3-1.8-1.5-5.6-6.2-6.7-1-.2-2.4-.3-2.7-.3-10.4 0-12 5-12 8v5c0 .7.3 1.5.9 2.1-.5.6-.9 1.6-.9 2.9 0 2.5 1.7 3.6 3.2 3.9.5 1.5 1.2 2.6 1.9 3.5l-3.7 3.7c-.8.9.2 1.8.2 1.8l-4.3 4.3c-.4.5-4.3 4.5-4.3 7.8 0 .2 0 .3.1.4l5 10c.1.3.4.4.6.5.1 0 1 .3 2.3.3 0 .1-.1 5.7-.1 5.7 0 .6.4 1 1 1s1-.4 1-1v-2.8c1.5 1.8 3.9 3.8 7 3.8s8.8-2 13.8-3.8c.9-.3 1.7-.6 2.5-.9.2-.1.4-.1.7-.2v4c0 .6.4 1 1 1s1-.4 1-1v-4.5c1.8-.4 3.5-.6 5-.5h7c1.7 0 4-.6 4.7-2.4.2-.5.3-1 .3-1.6h7c.6 0 1-.4 1-1v-27c.1-.6-.3-1-.9-1zm-11 2v5.4l-2.6-1.3c-.1-.1-.2-.1-.4-.1s-.3 0-.4.1l-2.6 1.3v-5.4zm-29.2 5.5c-.1-.2-.6-.5-.6-.5 1.2 0 2.2-.2 3.2-.5l-.4 1.2-1 2.6s-1.1-2.8-1.2-2.8zm4.9-1.4 2.1 2.1-1 1.9-1.7-2.3zm1.8-19.1c-.9.7-1.7 1.6-2.3 2.4-1.7 2.5-3.2 2.6-3.2 2.6h-5.3c.4-.4.8-.9 1.1-1.4 1.2-1.8 3.4-3.6 5.2-3.6zm7.7 1.6c.5.7.6 1.3.3 1.7-.4.8-2.1 1.7-5.5 1.7h-.1c-.2-1.8-.5-3.1-.7-3.8 1.1-.7 2.2-1.2 3.3-1.2s2 .5 2.7 1.6zm-25.2-2.6c0-3.6 2.9-5.1 6.2-5.7-1.7 1.8-2.2 4.1-2.2 5.7 0 .6.4 1 1 1 .5 0 1-.4 1-1s.2-5.4 5.1-5.9c4.3.4 5.5 3.4 5.8 4.9h-3.9c-2.7 0-5.4 2.2-6.8 4.4-1.7 2.5-3.2 2.6-3.2 2.6h-2c-.8 0-1-.5-1-1zm2 12c-.3 0-2-.1-2-2 0-1.8.8-2 1-2h11c.3 0 2.6-.1 4.8-3.4.2-.3.4-.6.7-.9.2.9.5 2.4.5 4.4 0 .1.4 5.6-2.5 8.8-1.3 1.4-3.2 2.1-5.5 2.1-.1 0-5.3-.1-7-6.3-.2-.4-.6-.7-1-.7zm2.1 7.3 4.4 2.9-2.7 3.4-4.4-3.6zm-11.1 15.5c.2-2.1 2.7-5.1 3.7-6.1l4.4-4.4 4.2 3.5c.2.2.4.2.6.2h.1c.3 0 .5-.2.7-.4l2.9-3.7 1.4 3.4c.2.4.5.6.9.6s.8-.2.9-.6l1.3-3.3 1.9 2.6c.2.3.5.4.9.4.3 0 .6-.2.8-.5l1.6-3.3 2.5.6v15.9c-1.5.5-3.3 1.1-5.2 1.7-1.5.5-3 1-4.4 1.5-1.7.6-3.7-.1-4.6-1.7l-3.9-6.7c-.3-.5-.9-.6-1.4-.3s-.6.9-.3 1.4l2.8 4.6c-1.6 4.7-5.9 4.3-7.2 4zm48.8 9c-.3.8-1.7 1.2-2.8 1.2h-6.9c-3.3-.2-6.7.8-8.4 1.4-.8.3-1.7.6-2.5.9-4.7 1.6-10.4 3.7-13.2 3.7-3.5 0-6-3.6-6.8-4.9 1.7-.4 3.6-1.3 5-3.7 1.1 1.7 3 2.7 5 2.7.6 0 1.2-.1 1.8-.3 1.3-.4 2.8-.9 4.4-1.5 4.4-1.5 9.8-3.3 11.2-3.3h7c.3 0 .9.2 1 1h-2.6c-.6 0-1 .4-1 1s.4 1 1 1c0 0 7.6.1 8 .1 0 .2-.1.5-.2.7zm8.2-2.8h-11.4c-.1-2.2-1.8-3-3-3h-7c-.9 0-2.4.4-4.6 1v-23h8v7c0 .3.2.7.5.9s.7.2 1 0l3.6-1.8 3.6 1.8c0 .1.1.1.3.1s.4 0 .5-.1c.3-.2.5-.5.5-.9v-7h8z"
+                        ></path>
+                        <path
+                          d="m43 43h-4c-.6 0-1 .4-1 1s.4 1 1 1h4c.6 0 1-.4 1-1s-.4-1-1-1z"
+                        ></path>
+                        <path
+                          d="m39 42h2c.6 0 1-.4 1-1s-.4-1-1-1h-2c-.6 0-1 .4-1 1s.4 1 1 1z"
+                        ></path>
+                      </g>
+                    </svg>
+                    <div class="about-product-text">
+                      Free Shippping Worldwide
+                    </div>
+                  </div>
+                  <div class="about-product-item">
+                    <svg
+                      version="1.1"
+                      id="svg1734"
+                      xml:space="preserve"
+                      width="682.66669"
+                      height="682.66669"
+                      viewBox="0 0 682.66669 682.66669"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                    >
+                      <defs id="defs1738">
+                        <clipPath
+                          clipPathUnits="userSpaceOnUse"
+                          id="clipPath1748"
+                        >
+                          <path
+                            d="M 0,512 H 512 V 0 H 0 Z"
+                            id="path1746"
+                          ></path>
+                        </clipPath>
+                      </defs>
+                      <g
+                        id="g1740"
+                        transform="matrix(1.3333333,0,0,-1.3333333,0,682.66667)"
+                      >
+                        <g id="g1742">
+                          <g id="g1744" clip-path="url(#clipPath1748)">
+                            <g
+                              id="g1750"
+                              transform="translate(414.6342,51.2314)"
+                            >
+                              <path
+                                d="m 0,0 c -74.428,-48.468 -175.086,-40.046 -240.398,25.266 -74.981,74.981 -74.981,196.549 0,271.529 74.981,74.981 196.548,74.981 271.529,0 65.251,-65.251 73.718,-165.782 25.402,-240.189"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1752"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1754"
+                              transform="translate(445.7652,76.4976)"
+                            >
+                              <path
+                                d="M 0,0 V 0"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1756"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1758"
+                              transform="translate(310.0006,67.1331)"
+                            >
+                              <path
+                                d="m 0,0 c -80.153,0 -145.129,64.976 -145.129,145.129 0,80.153 64.976,145.129 145.129,145.129 80.153,0 145.129,-64.976 145.129,-145.129 C 145.129,64.976 80.153,0 0,0 Z"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1760"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1762"
+                              transform="translate(273.8483,443.7379)"
+                            >
+                              <path
+                                d="m 0,0 h 72 c 13.255,0 24,10.745 24,24 v 0 C 96,37.255 85.255,48 72,48 H 0 C -13.255,48 -24,37.255 -24,24 v 0 C -24,10.745 -13.255,0 0,0 Z"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1764"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1766"
+                              transform="translate(344.0551,404.2621)"
+                            >
+                              <path
+                                d="M 0,0 V 39.476 H -68.414 V 0"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1768"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1770"
+                              transform="translate(328.9551,231.2166)"
+                            >
+                              <path
+                                d="M 0,0 51.373,51.373"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1772"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1774"
+                              transform="translate(288.9265,212.2621)"
+                            >
+                              <path
+                                d="m 0,0 c 0,-11.639 9.435,-21.074 21.074,-21.074 11.639,0 21.074,9.435 21.074,21.074 0,11.639 -9.435,21.074 -21.074,21.074 C 9.435,21.074 0,11.639 0,0 Z"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1776"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1778"
+                              transform="translate(416.9196,212.14)"
+                            >
+                              <path
+                                d="M 0,0 H -9.264"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1780"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1782"
+                              transform="translate(203.0817,212.3842)"
+                            >
+                              <path
+                                d="M 0,0 H 9.264"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1784"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1786"
+                              transform="translate(310.1228,319.1811)"
+                            >
+                              <path
+                                d="M 0,0 V -9.264"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1788"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1790"
+                              transform="translate(309.8785,105.3432)"
+                            >
+                              <path
+                                d="M 0,0 V 9.264"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1792"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1794"
+                              transform="translate(294.1852,228.0776)"
+                            >
+                              <path
+                                d="M 0,0 -27.149,27.149"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1796"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1798"
+                              transform="translate(324.9023,227.1638)"
+                            >
+                              <path
+                                d="M 0,0 53.973,53.972"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1800"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1802"
+                              transform="translate(126.7609,150.5582)"
+                            >
+                              <path
+                                d="M 0,0 H -76.761"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1804"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1806"
+                              transform="translate(118.0007,208.9946)"
+                            >
+                              <path
+                                d="M 0,0 H -54.001"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1808"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1810"
+                              transform="translate(124.0942,267.431)"
+                            >
+                              <path
+                                d="M 0,0 H -114.094"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1812"
+                              ></path>
+                            </g>
+                            <g
+                              id="g1814"
+                              transform="translate(149.4276,325.8674)"
+                            >
+                              <path
+                                d="M 0,0 H -71.261"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1816"
+                              ></path>
+                            </g>
+                            <g id="g1818" transform="translate(10,150.5582)">
+                              <path
+                                d="M 0,0 V 0"
+                                style="
+                                  fill: none;
+                                  stroke: #000000;
+                                  stroke-width: 20;
+                                  stroke-linecap: round;
+                                  stroke-linejoin: round;
+                                  stroke-miterlimit: 10;
+                                  stroke-dasharray: none;
+                                  stroke-opacity: 1;
+                                "
+                                id="path1820"
+                              ></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+
+                    <div class="about-product-text">
+                      Delivers in: 3-7 Working Days Shipping &amp; Return
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Quick View Modal -->
+
+    <a href="#" class="scroll-top scroll-top-show">
+      <i class="fa-regular fa-chevron-up"></i>
+    </a>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GymexSupplement</title>
+    <!-- <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon" /> -->
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/fancybox.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-xl">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo-white.png" alt="" />
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Shop</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="muscle-max.html"
+                      >Muscle Max</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="power-surge.html"
+                      >Power Surge
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="ultimate-strength.html"
+                      >Ultimate Strength
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="blogs.html"
+                  >Blogs</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-right d-flex align-items-center ms-auto ms-lg-0">
+            <ul class="d-flex icon-links">
+              <li>
+                <a
+                  href="#"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasTop"
+                  aria-controls="offcanvasTop"
+                >
+                  <i class="fa-regular fa-magnifying-glass"></i>
+                </a>
+              </li>
+              <li>
+                <a href="wishlist.html">
+                  <i class="fa-regular fa-heart"></i>
+                  <span class="numbers" id="wishlist-count">2</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasCart"
+                  id="view-cart-btn"
+                  aria-controls="offcanvasCart"
+                >
+                  <i class="fa-regular fa-cart-shopping"></i>
+                  <span class="numbers" id="cart-count">4</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="hamburger-btn"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+          >
+            <svg
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 512 512"
+              style="enable-background: new 0 0 512 512"
+              xml:space="preserve"
+            >
+              <g>
+                <g>
+                  <path
+                    d="M176.792,0H59.208C26.561,0,0,26.561,0,59.208v117.584C0,209.439,26.561,236,59.208,236h117.584
+    C209.439,236,236,209.439,236,176.792V59.208C236,26.561,209.439,0,176.792,0z M196,176.792c0,10.591-8.617,19.208-19.208,19.208
+    H59.208C48.617,196,40,187.383,40,176.792V59.208C40,48.617,48.617,40,59.208,40h117.584C187.383,40,196,48.617,196,59.208
+    V176.792z"
+                  />
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M452,0H336c-33.084,0-60,26.916-60,60v116c0,33.084,26.916,60,60,60h116c33.084,0,60-26.916,60-60V60
+    C512,26.916,485.084,0,452,0z M472,176c0,11.028-8.972,20-20,20H336c-11.028,0-20-8.972-20-20V60c0-11.028,8.972-20,20-20h116
+    c11.028,0,20,8.972,20,20V176z"
+                  />
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M176.792,276H59.208C26.561,276,0,302.561,0,335.208v117.584C0,485.439,26.561,512,59.208,512h117.584
+    C209.439,512,236,485.439,236,452.792V335.208C236,302.561,209.439,276,176.792,276z M196,452.792
+    c0,10.591-8.617,19.208-19.208,19.208H59.208C48.617,472,40,463.383,40,452.792V335.208C40,324.617,48.617,316,59.208,316h117.584
+    c10.591,0,19.208,8.617,19.208,19.208V452.792z"
+                  />
+                </g>
+              </g>
+              <g>
+                <g>
+                  <path
+                    d="M452,276H336c-33.084,0-60,26.916-60,60v116c0,33.084,26.916,60,60,60h116c33.084,0,60-26.916,60-60V336
+    C512,302.916,485.084,276,452,276z M472,452c0,11.028-8.972,20-20,20H336c-11.028,0-20-8.972-20-20V336c0-11.028,8.972-20,20-20
+    h116c11.028,0,20,8.972,20,20V452z"
+                  />
+                </g>
+              </g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+              <g></g>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section class="banner-sec">
+      <img class="banner-shape" src="images/banner-shape.png" alt="" />
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12">
+            <div class="banner-content text-center">
+              <h1>Blogs</h1>
+              <nav aria-label="breadcrumb mt-3">
+                <ol class="breadcrumb justify-content-center mt-3">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Blogs
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blogs-sec sp-tb">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-lg-8 col-md-7">
+            <div class="blogs-wrap">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="blog-item">
+                    <a href="blog-details.html" class="blog-img">
+                      <img src="images/blog-1.png" alt="" />
+                    </a>
+                    <ul class="filters-wrap">
+                      <li>
+                        <a href="blog-category.html" class="filter">
+                          <i class="fa-solid fa-tags"></i>
+                          <span>Body & Fit</span>
+                        </a>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>March 12, 2024</span>
+                      </li>
+                    </ul>
+                    <a href="blog-details.html">
+                      <h3 class="other-small-head">
+                        Boost Your Health and Fitness Journey with XYZ
+                        Supplement: The Ultimate Game Changer
+                      </h3>
+                    </a>
+                    <p>
+                      Designers should also focus on developing skills in areas
+                      such as user experience...
+                    </p>
+                    <a href="blog-details.html" class="underline-btn"
+                      >Read more</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="blog-item">
+                    <a href="blog-details.html" class="blog-img">
+                      <img src="images/Blog-2.jpg" alt="" />
+                    </a>
+                    <ul class="filters-wrap">
+                      <li>
+                        <a href="blog-category.html" class="filter">
+                          <i class="fa-solid fa-tags"></i>
+                          <span>Body & Fit</span>
+                        </a>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>March 12, 2024</span>
+                      </li>
+                    </ul>
+                    <a href="blog-details.html">
+                      <h3 class="other-small-head">
+                        Boost Your Health and Fitness Journey with XYZ
+                        Supplement: The Ultimate Game Changer
+                      </h3>
+                    </a>
+                    <p>
+                      Designers should also focus on developing skills in areas
+                      such as user experience...
+                    </p>
+                    <a href="blog-details.html" class="underline-btn"
+                      >Read more</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="blog-item">
+                    <a href="blog-details.html" class="blog-img">
+                      <img src="images/Blog-2.jpg" alt="" />
+                    </a>
+                    <ul class="filters-wrap">
+                      <li>
+                        <a href="blog-category.html" class="filter">
+                          <i class="fa-solid fa-tags"></i>
+                          <span>Body & Fit</span>
+                        </a>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>March 12, 2024</span>
+                      </li>
+                    </ul>
+                    <a href="blog-details.html">
+                      <h3 class="other-small-head">
+                        Boost Your Health and Fitness Journey with XYZ
+                        Supplement: The Ultimate Game Changer
+                      </h3>
+                    </a>
+                    <p>
+                      Designers should also focus on developing skills in areas
+                      such as user experience...
+                    </p>
+                    <a href="blog-details.html" class="underline-btn"
+                      >Read more</a
+                    >
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="blog-item">
+                    <a href="blog-details.html" class="blog-img">
+                      <img src="images/blog-1.png" alt="" />
+                    </a>
+                    <ul class="filters-wrap">
+                      <li>
+                        <a href="blog-category.html" class="filter">
+                          <i class="fa-solid fa-tags"></i>
+                          <span>Body & Fit</span>
+                        </a>
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>March 12, 2024</span>
+                      </li>
+                    </ul>
+                    <a href="blog-details.html">
+                      <h3 class="other-small-head">
+                        Boost Your Health and Fitness Journey with XYZ
+                        Supplement: The Ultimate Game Changer
+                      </h3>
+                    </a>
+                    <p>
+                      Designers should also focus on developing skills in areas
+                      such as user experience...
+                    </p>
+                    <a href="blog-details.html" class="underline-btn"
+                      >Read more</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-5">
+            <aside class="product-filter">
+              <div class="filter-content">
+                <h3 class="other-small-head">Top Categories</h3>
+                <a href="blog-category.html">Blog</a>
+                <a href="blog-category.html">Body & Fit</a>
+                <a href="blog-category.html">Fat Burners</a>
+                <a href="blog-category.html">Muscle Builders</a>
+                <a href="blog-category.html">Nutrition</a>
+                <a href="blog-category.html">Protein</a>
+                <a href="blog-category.html">Updated Nuts</a>
+              </div>
+              <div class="filter-content">
+                <h3 class="other-small-head">Recent Posts</h3>
+                <ul class="recent-post">
+                  <li class="recent-blog-item">
+                    <a href="blog-details.html" class="recent-img">
+                      <img src="images/blog-1.png" alt="" />
+                    </a>
+                    <div class="content-right">
+                      <p>12 Mar, 2024</p>
+                      <a href="blog-details.html"
+                        >Discover the Power of XYZ Supplement:</a
+                      >
+                    </div>
+                  </li>
+                  <li class="recent-blog-item">
+                    <a href="blog-details.html" class="recent-img">
+                      <img src="images/Blog-2.jpg" alt="" />
+                    </a>
+                    <div class="content-right">
+                      <p>12 Mar, 2024</p>
+                      <a href="blog-details.html"
+                        >Discover the Power of XYZ Supplement:</a
+                      >
+                    </div>
+                  </li>
+                  <li class="recent-blog-item">
+                    <a href="blogs.html" class="recent-img">
+                      <img src="images/blog-1.png" alt="" />
+                    </a>
+                    <div class="content-right">
+                      <p>12 Mar, 2024</p>
+                      <a href="blogs.html"
+                        >Discover the Power of XYZ Supplement:</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="filter-content">
+                <h3 class="other-small-head">Popular Tags</h3>
+                <div class="d-flex">
+                  <a href="blog-category.html" class="btn btn-outline-dark"
+                    >Daily</a
+                  >
+                  <a href="blog-category.html" class="btn btn-outline-dark"
+                    >Digital</a
+                  >
+                  <a href="blog-category.html" class="btn btn-outline-dark"
+                    >Food</a
+                  >
+                  <a href="blog-category.html" class="btn btn-outline-dark"
+                    >Marketing</a
+                  >
+                  <a href="blog-category.html" class="btn btn-outline-dark"
+                    >Mobile</a
+                  >
+                  <a href="blog-category.html" class="btn btn-outline-dark"
+                    >Powder</a
+                  >
+                  <a href="blog-category.html" class="btn btn-outline-dark"
+                    >Protine</a
+                  >
+                  <a href="blog-category.html" class="btn btn-outline-dark"
+                    >Wellness</a
+                  >
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="dark-bg">
+      <div class="container-xl">
+        <div class="row gx-xl-5">
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-item">
+              <a href="index.html">
+                <img src="images/logo-white.png" alt="" />
+              </a>
+              <p class="my-4">
+                Premium muscle supplements to fuel your fitness journey. Quality
+                ingredients, optimal results. Join our community today.
+              </p>
+              <ul class="sm-icons d-flex align-items-center">
+                <li>
+                  <a href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://x.com/">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-item text-lg-center">
+              <h4>Quick Links</h4>
+              <ul class="nav-links">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="products.html">Shop</a>
+                </li>
+                <li>
+                  <a href="blogs.html">Blogs</a>
+                </li>
+                <li>
+                  <a href="contact.html">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer-item">
+              <h4>GET THE LATEST NEWS SENT RIGHT TO YOUR INBOX!</h4>
+              <p>
+                See our latest collections & exclusive offers before the crowd!
+              </p>
+              <form action="" class="subscribe-form">
+                <div class="input-wrap">
+                  <input type="email" placeholder="Your Email..." />
+                  <button class="submit-btn">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-content">
+          <p>© GYMEX – All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Search Box Offcanvas -->
+    <div
+      class="offcanvas offcanvas-top"
+      tabindex="-1"
+      id="offcanvasTop"
+      aria-labelledby="offcanvasTopLabel"
+    >
+      <div class="offcanvas-header justify-content-end">
+        <button
+          type="button"
+          class="close-btn"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-regular fa-xmark"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <form class="search-form">
+          <div class="input-item-wrap">
+            <label for="search-input">What are you looking for?</label>
+            <div class="input-wrap">
+              <input
+                name="search-input"
+                type="text"
+                placeholder="Search products..."
+              />
+              <button>
+                <i class="fa-regular fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Search Box Offcanvas End -->
+
+    <!-- Cart Offcanvas -->
+    <div
+      class="offcanvas offcanvas-start cart-offcanvas"
+      tabindex="-1"
+      id="offcanvasCart"
+      aria-labelledby="offcanvasCartLabel"
+    >
+      <div class="offcanvas-header">
+        <h4>Item added to your cart</h4>
+        <a
+          href="#"
+          class="close-btn"
+          type="button"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-regular fa-xmark"></i>
+        </a>
+      </div>
+      <div class="offcanvas-body">
+        <div class="cart-item-wrap">
+          <div class="cart-item">
+            <a href="#" class="cart-img-wrap">
+              <img src="images/product-img-1.png" alt="" />
+            </a>
+            <div class="cart-content">
+              <a href="#">
+                <h5>PowerPro Max</h5>
+              </a>
+              <div class="price">
+                <span>INR 3,440</span>
+                INR 2,440
+              </div>
+              <div class="d-flex align-items-center">
+                <div class="quantity-wrap">
+                  <button class="quantity-btn quantity-minus">
+                    <i class="fa-regular fa-minus"></i>
+                  </button>
+                  <input type="number" class="quantity__input" value="1" />
+                  <button class="quantity-btn quantity-plus">
+                    <i class="fa-regular fa-plus"></i>
+                  </button>
+                </div>
+                <a href="#" class="item-remove">remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="cart-item">
+            <a href="#" class="cart-img-wrap">
+              <img src="images/product-img-2.png" alt="" />
+            </a>
+            <div class="cart-content">
+              <a href="#">
+                <h5>MuscleBoost Elite</h5>
+              </a>
+              <div class="price">
+                <span>INR 3,440</span>
+                INR 2,440
+              </div>
+              <div class="d-flex align-items-center">
+                <div class="quantity-wrap">
+                  <button class="quantity-btn quantity-minus">
+                    <i class="fa-regular fa-minus"></i>
+                  </button>
+                  <input type="number" class="quantity__input" value="1" />
+                  <button class="quantity-btn quantity-plus">
+                    <i class="fa-regular fa-plus"></i>
+                  </button>
+                </div>
+                <a href="#" class="item-remove">remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="cart-item">
+            <a href="#" class="cart-img-wrap">
+              <img src="images/product-img-3.png" alt="" />
+            </a>
+            <div class="cart-content">
+              <a href="#">
+                <h5>EnduraFuel XT</h5>
+              </a>
+              <div class="price">
+                <span>INR 3,440</span>
+                INR 2,440
+              </div>
+              <div class="d-flex align-items-center">
+                <div class="quantity-wrap">
+                  <button class="quantity-btn quantity-minus">
+                    <i class="fa-regular fa-minus"></i>
+                  </button>
+                  <input
+                    type="number"
+                    class="quantity__input"
+                    value="1"
+                    min="1"
+                  />
+                  <button class="quantity-btn quantity-plus">
+                    <i class="fa-regular fa-plus"></i>
+                  </button>
+                </div>
+                <a href="#" class="item-remove">remove</a>
+              </div>
+            </div>
+          </div>
+          <div class="empty-cart-content">
+            <i class="fa-solid fa-cart-plus"></i>
+            <h3>Your cart is emptry</h3>
+            <p>
+              Before proceed to checkout you must add some products to your
+              shopping cart. You will find a lot of interesting products on our
+              "Shop" page.
+            </p>
+          </div>
+        </div>
+        <div class="py-4 bottom-content">
+          <div class="mb-4 d-flex justify-content-between">
+            <span>Subtotal</span>
+            <span class="total-price"
+              >INR <span id="cart-total">8499</span></span
+            >
+          </div>
+          <button class="secondary-btn dark-btn w-100" id="checkout-btn">
+            check out
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Cart Offcanvas End -->
+
+    <!-- Hamburger Offcanvas -->
+    <div
+      class="hamburger offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header justify-content-end">
+        <a
+          href="#"
+          class="close-btn"
+          type="button"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-regular fa-xmark"></i>
+        </a>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav d-lg-none">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Shop</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="muscle-max.html">Muscle Max</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="power-surge.html">Power Surge</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="ultimate-strength.html"
+                  >Ultimate Strength</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="blogs.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact us</a>
+          </li>
+        </ul>
+        <h4>
+          Getting all of the Nutrients you need simply cannot be done without
+          supplements.
+        </h4>
+        <p>
+          Nam libero tempore, cum soluta nobis eligendi cumque quod placeat
+          facere possimus assumenda omnis dolor repellendu sautem temporibus
+          officiis
+        </p>
+        <div class="contact-info">
+          <a href="#">+1 599 162 4545</a>
+          <a href="#">suxnix@gmail.com</a>
+          <p>5689 Lotaso Terrace, Culver City, CA, United States</p>
+          <ul class="sm-icons d-flex align-items-center">
+            <li>
+              <a href="https://www.facebook.com/">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Hamburger Offcanvas End -->
+
+    <a href="#" class="scroll-top scroll-top-show">
+      <i class="fa-regular fa-chevron-up"></i>
+    </a>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+      Fancybox.bind("[data-fancybox]", {
+        // Your custom options
+      });
+    </script>
+  </body>
+</html>
