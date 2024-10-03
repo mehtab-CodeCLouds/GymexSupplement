@@ -8,6 +8,15 @@ $(window).scroll(function () {
 });
 // Fixed navbar End
 
+const navItem = document.querySelectorAll(".nav-link");
+
+navItem.forEach((currNav) => {
+  currNav.addEventListener("mouseover", function () {
+    console.log(currNav);
+    currNav.classList.add("position-relative");
+  });
+});
+
 // ===============================================================================
 // Select all elements that have the 'aria-current' attribute set to 'page'
 const currentPageLinks = document.querySelectorAll('[aria-current="page"]');

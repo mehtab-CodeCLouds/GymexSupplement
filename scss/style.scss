@@ -119,7 +119,6 @@ header {
   font-size: 20px;
   font-family: $font-secondary;
   color: $color-white;
-  position: relative;
   padding: 6px 0;
 
   &:hover,
@@ -129,6 +128,8 @@ header {
 }
 
 .navbar-nav {
+  position: relative;
+
   .nav-item + .nav-item {
     margin-left: 20px;
   }
@@ -141,7 +142,7 @@ header {
       position: absolute;
       bottom: 0;
       left: 0;
-      width: 100%;
+      width: 50px;
       height: 2px;
       background-color: $color-primary;
     }
